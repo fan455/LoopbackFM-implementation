@@ -11,7 +11,7 @@ You can change the parameters in the code for different sound. I'm still trying 
 
 If you don't understand the code, you'd better only change the following parameters I'll explain. If you understand my code, you can change and add anything to create something more exciting and share with me.
 
-- In the 'Specify sample rate and duration' section, you can sepcify the sample rate, main samples duration and leading and trailing silence duration for better listening experience. Note that the sample rate need to be the same as the impulse response audio file's sample rate.
+- In the 'Specify sample rate and duration' section, you can sepcify the sample rate, main samples duration and leading and trailing silence duration for better listening experience. Note that the sample rate needs to be the same as the impulse response audio file's sample rate.
 
 - In the 'Loopback FM parameters' section, you can specify the basic frequencies in f_arr.
 
