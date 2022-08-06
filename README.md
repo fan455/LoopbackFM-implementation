@@ -5,9 +5,7 @@ Quote form the paper:
 
 Impulse response audio file 'Space4ArtGallery.wav' downloaded from echothief.com (Copyright 2013-2020 Chris Warren cwarren@sdsu.edu).
 
-The code is still under research. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example.
-
-You can change the parameters in the code for different sounds. I'm still trying to understand how parameters change will affect the final output. 
+The code is still under research. I'm still trying to understand how parameters change will affect the final output. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example. You can change the parameters in the code for different sounds. 
 
 If you don't understand the code, you'd better only change the following parameters I'll explain. If you understand my code, you can change and add anything to create something more exciting and share with me.
 
@@ -19,6 +17,6 @@ If you don't understand the code, you'd better only change the following paramet
 
 - In the 'Excitation parameters' section, you can specify the L parameter for tonal balance. The bigger the 'L' is, the less high frequencies will be generated. This probably has the most impact on the output.
 
-- In the 'Reverbration parameters' section, you can copy your own impulse response audio file into the 'impulse_response' folder and change the wavfile.read file path in the code to convolve your own impulse response. Note that the code only supports 44.1kHz 24bit or 32bit stereo IR audio files. But surely you can change the settings if you understand my code. Like the above envelope, I've created an envelope array for impulse response so you can control how much IR will be convolved (dry/wet degree) by changing the A_ir and τ_ir parameters (this time they're single values rather than arrays).
+- In the 'Reverbration parameters' section, you can copy your own impulse response audio file into the 'impulse_response' folder and change the wavfile.read file path in the code to convolve your own impulse response. Note that the code only supports 44.1kHz 24bit or 32bit stereo IR wav files. But surely you can change the settings if you understand my code. Like the above envelope, I've created an envelope array for impulse response so you can control how much IR will be convolved (dry/wet degree) by changing the A_ir and τ_ir parameters (this time they're single values rather than arrays).
 
 There's a timing section to record the time. It takes 0.03 to 0.04 seconds to run on my windows cpu computer.
