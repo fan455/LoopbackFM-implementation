@@ -5,7 +5,7 @@ Quote form the paper:
 
 Impulse response audio 'Space4ArtGallery.wav' downloaded from echothief.com (Copyright 2013-2020 Chris Warren cwarren@sdsu.edu).
 
-The code is still under development. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example.
+The code is still under research. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example.
 
 You can change the parameters in the code for different sound. I'm still trying to understand how parameters change will affect the final output. 
 
