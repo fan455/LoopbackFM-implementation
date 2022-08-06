@@ -19,6 +19,6 @@ If you don't understand the code, you'd better only change the following paramet
 
 - In the 'Excitation parameters' section, you can specify the L parameter for tonal balance. The bigger the 'L' is, the less high frequencies will be generated. This probably has the most impact on the output.
 
-- In the 'Reverbration parameters' section, you can copy your own impulse response audio into the 'impulse_response' folder to convolve your own impulse response. Note that the code only supports 44.1kHz 24bit or 32bit stereo IR audio files. But surely you can change the settings if you understand my code. Like the above envelope, I've created an envelope array for impulse response so you can control how much IR will be convolved (dry/wet degree) by changing the A_ir and τ_ir parameters (this time they're single values rather than arrays).
+- In the 'Reverbration parameters' section, you can copy your own impulse response audio file into the 'impulse_response' folder and change the wavfile.read file path in the code to convolve your own impulse response. Note that the code only supports 44.1kHz 24bit or 32bit stereo IR audio files. But surely you can change the settings if you understand my code. Like the above envelope, I've created an envelope array for impulse response so you can control how much IR will be convolved (dry/wet degree) by changing the A_ir and τ_ir parameters (this time they're single values rather than arrays).
 
 There's a timing section to record the time. It takes 0.03 to 0.04 seconds to run on my windows cpu computer.
