@@ -7,7 +7,7 @@ Impulse response audio file 'DivorceBeach.wav' downloaded from echothief.com ("C
 
 Impulse response audio file 's1_r1_b.wav' downloaded from http://legacy.spa.aalto.fi/projects/poririrs/ ("SIRR processed data are Copyright ©2005 by Helsinki University of Technology (TKK). All other data are Copyright ©2005 by TKK, Akukon Oy Consulting Engineers, and the authors. The data are provided free for noncommercial purposes, provided the authors are cited when the data are used in any research application. Commercial use is prohibited and allowed only by written permission of the copyright owners.")
 
-The code is still under research. I'm still trying to understand how parameters change will affect the final output. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example in the 'audio_files_output' folder. You can change the parameters in the code for different sounds. Running 'LoopbackFM_batch.py' will generate several sounds with different 'L' parameter values.
+The code is still under research. I'm still trying to understand how parameters change will affect the final output. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example in the 'audio_files_output' folder. You can change the parameters in the code for different sounds. 
 
 If you don't understand the code, you'd better only change the following parameters I'll explain. If you understand my code, you can change and add anything to create something more exciting and share with me.
 
@@ -21,7 +21,7 @@ If you don't understand the code, you'd better only change the following paramet
 
 - In the 'Envelope parameters' section, you can specify the envelope amplitude at the beginning in the A_arr and decay rate in τ_arr. They have to have the same sizes as f_arr.
 
-- In the 'Excitation parameters' section, you can specify the L parameter for tonal balance. The bigger the L is, the more bass frequencies and less high frequencies will be generated. You can also choose whether or not to apply an envelope to the excitation array.
+- In the 'Excitation parameters' section, you can choose between 2 excitation method: raised cosine envelopes or filtered noise bursts. If you choose raised cosine method, you can specify the L parameter for tonal balance. The bigger the L is, the more bass frequencies and less high frequencies will be generated. You can also choose whether or not to apply an envelope to the excitation array. If you choose filtered noise method, you can specify the duration of noise array and the low and high cutoff frequencies for noise. The frequencies of filtered noise will impact the tonal balance of output in a positive way.
 
 - In the 'Reverbration parameters' section, you can copy your own impulse response audio file into the 'audio_files_input' folder and change the wavfile.read file path in the code to convolve your own impulse response. Note that the code only supports 16bit, 24bit or 32bit stereo IR wav files. But surely you can change the settings if you understand my code. You can also choose whether or not to apply an envelope to the impulse response array, which enables you to control how much IR will be convolved (dry/wet degree) by changing the A_ir and τ_ir parameters.
 
