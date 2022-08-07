@@ -13,7 +13,7 @@ If you don't understand the code, you'd better only change the following paramet
 
 - In the 'Sample rate and duration' section, you can sepcify the sample rate, main samples duration and leading and trailing silence duration for better listening experience. Note that the sample rate needs to be the same as the impulse response audio file's sample rate.
 
-- In the 'Choose whether or not to use convolution reverb' section, if you specify 'False', the output will be dry sound.
+- In the 'Choose whether or not to use convolution reverb' section, if you specify 'False', the output will be dry mono sound and if you specify 'True', the output will be wet stereo sound.
 
 - In the 'Loopback FM parameters' section, you can specify the basic frequencies in f_arr.
 
