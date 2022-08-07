@@ -7,7 +7,7 @@ Impulse response audio file 'DivorceBeach.wav' downloaded from echothief.com ("C
 
 Impulse response audio file 's1_r1_b.wav' downloaded from http://legacy.spa.aalto.fi/projects/poririrs/ ("SIRR processed data are Copyright ©2005 by Helsinki University of Technology (TKK). All other data are Copyright ©2005 by TKK, Akukon Oy Consulting Engineers, and the authors. The data are provided free for noncommercial purposes, provided the authors are cited when the data are used in any research application. Commercial use is prohibited and allowed only by written permission of the copyright owners.")
 
-The code is still under research. I'm still trying to understand how parameters change will affect the final output. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example in the 'audio_files_output' folder. You can change the parameters in the code for different sounds. 
+The code is still under research. I'm still trying to understand how parameters change will affect the final output. Running 'LoopbackFM.py' will generate the 'percussive01.wav' audio example in the 'audio_files_output' folder. You can change the parameters in the code for different sounds. Running 'LoopbackFM_batch.py' will generate several sounds with different 'L' parameter values.
 
 If you don't understand the code, you'd better only change the following parameters I'll explain. If you understand my code, you can change and add anything to create something more exciting and share with me.
 
