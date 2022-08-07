@@ -11,8 +11,6 @@ The code is still under research. I'm still trying to understand how parameters 
 
 If you don't understand the code, you'd better only change the following parameters I'll explain. If you understand my code, you can change and add anything to create something more exciting and share with me.
 
-- All variables with '_arr' in their names are numpy arrays, otherwise they're single-value variables.
-
 - In the 'Sample rate and duration' section, you can sepcify the sample rate, main samples duration and leading and trailing silence duration for better listening experience. Note that the sample rate needs to be the same as the impulse response audio file's sample rate.
 
 - In the 'Choose whether or not to use convolution reverb' section, if you specify 'False', the output will be dry sound.
