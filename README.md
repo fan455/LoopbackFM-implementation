@@ -3,7 +3,7 @@ This is an incomplete python implementation of the paper "Percussion Synthesis u
 Quote form the paper:
 "Copyright: c 2018 Jennifer S. Hsu et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 3.0 Unported License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
 
-Impulse response audio file 'DivorceBeach.wav' downloaded from echothief.com ("Copyright 2013-2020 Chris Warren cwarren@sdsu.edu") 
+Impulse response audio file 'DivorceBeach.wav' downloaded from http://www.echothief.com/ ("Copyright 2013-2020 Chris Warren cwarren@sdsu.edu") 
 
 Impulse response audio file 's1_r1_b.wav' downloaded from http://legacy.spa.aalto.fi/projects/poririrs/ ("SIRR processed data are Copyright ©2005 by Helsinki University of Technology (TKK). All other data are Copyright ©2005 by TKK, Akukon Oy Consulting Engineers, and the authors. The data are provided free for noncommercial purposes, provided the authors are cited when the data are used in any research application. Commercial use is prohibited and allowed only by written permission of the copyright owners.")
 
